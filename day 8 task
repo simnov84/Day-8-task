@@ -1,0 +1,32 @@
+1.MOVIE:
+
+class movie {
+    constructor(title, studio, rating) {
+        this.title = title;
+        this.studio = studio;
+        this.rating = rating;
+    }
+}
+let movie1 = new movie("Casino Royale","Eon Productions","PG13");
+console.log(`Title: ${movie1.title}
+Studio: ${movie1.studio} 
+Rating: ${movie1.rating}`);
+
+
+2.PERSON:
+
+class person {
+    constructor(name, age, gender, qualification, address) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.qualification = qualification;
+        this.address = address;
+    }
+}
+let person1 = new person("Inthu","30","Female","B.tech","Coimbatore");
+console.log(`Name: ${person1.name}
+Age: ${person1.age} 
+Gender: ${person1.gender}
+Qualification: ${person1.qualification}
+Address: ${person1.address}`);
